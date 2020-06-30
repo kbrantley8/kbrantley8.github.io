@@ -1,0 +1,74 @@
+.body {
+  width: 100vw;
+  margin: 0;
+}
+.content-fullscreen {
+  height: 100%;
+  font-family: 'Bookman Old Style';
+  padding: 40px 12%;
+}
+
+.center {
+  text-align: center;
+}
+
+.center-margin {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.avatar-wrapper img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.icons {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.icons img {
+  width: 40px;
+  height: 40px;
+}
+
+.links {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.col-md-five-fix {
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+
+.line {
+  width: 100%;
+  border-top: 1px solid grey;
+}
+
+.links a {
+  color: inherit;
+}
+
+.links a:hover{
+  cursor: pointer;
+  color: #007bff !important;
+  text-decoration: underline !important;
+}
+
+.links > .active {
+  color: red;
+  text-decoration: underline;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  font-size: 20px;
+}
