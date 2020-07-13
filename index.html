@@ -8,8 +8,20 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script type="module" src="js/main.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
   </head>
   <body data-spy="scroll" data-target=".links" style="position: relative; ">
+    <!-- <div id="mySidepanel" class="sidepanel">
+      <a id="close-pop">Close</a>
+      <div id="sidepanel-data" class="col-md-12"></div>
+    </div> -->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <p class="close-modal">&times;</p>
+        <div id="modal-data"></div>
+      </div>
+    
+    </div>
     <div class="content-fullscreen center">
       <div class="avatar-wrapper">
         <img src="resources/profile-pic.jpg">
@@ -20,13 +32,13 @@
       <div class="icons">
         <div class="row text-center">
           <div class="col-md-4 text-center">
-            <a target="_blank" href="https://www.linkedin.com/in/kory-brantley-bb5661175/"><img style="width: 75px;" class="text-center" src="resources/linkedin-icon.png" ></a>
+            <a target="_blank" href="https://www.linkedin.com/in/kory-brantley-bb5661175/"><i class="devicon-linkedin-plain colored" style="font-size: 40px;"></i></a>
           </div>
           <div class="col-md-4 text-center">
-            <a target="_blank" href="https://github.com/kbrantley8"><img src="resources/github-icon.svg"></a>
+            <a target="_blank" href="https://github.com/kbrantley8"><i class="devicon-github-plain colored" style="font-size: 40px;"></i></a>
           </div>
           <div class="col-md-4 text-center">
-            <a target="_blank" href="https://www.facebook.com/kory.brantley/"><img src="resources/facebook-icon.webp"></a>
+            <a target="_blank" href="https://www.facebook.com/kory.brantley/"><i class="devicon-facebook-plain colored" style="font-size: 40px;"></i></a>
           </div>
         </div>
       </div>
@@ -72,7 +84,11 @@
           </div>
         </div>
         <div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec</p>
+          <p style="text-align: center">
+            Hey, y'all. I'm Kory. I'm currently a 4th year Computer Science major at the Georgia Institute of Technology. I am from Cochran, Georgia and I have been interested in computers ever since I was young.
+            When I began coding in high school, I realized it was what I wanted to do in life. I would describe myself as a hard-worker, a fast learner, and a independent thinker that can also
+            work well on a team. My work ethic is often commented on as "annoying" but I just strongly believe in giving each project my all. 
+          </p>
         </div>
       </section>
       <br>
@@ -125,9 +141,91 @@
             <hr class="line" style="margin-top: 0px;">
           </div>
         </div>
-        <div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec</p>
-        </div>
+        <div class="row" id="icons" style="margin-top: 15px"></div>
+        <!-- <div class="row">
+          <div class="col-md-3">
+            <i class="devicon-amazonwebservices-plain-wordmark" title="AWS" id="AWS"></i>
+          </div>
+          <div class="col-md-3">
+            <i class="devicon-android-plain" title="Android" id="Android"></i>
+          </div>
+          <div class="col-md-3">
+            <i class="devicon-angularjs-plain" title="AngularJS" id="Angular"></i>
+          </div>
+          <div class="col-md-3">
+            <i class="devicon-bootstrap-plain" title="Bootstrap" id="Bootstrap"></i>
+          </div>
+          <div class="col-md-3">
+            <i class="devicon-c-plain" title="C" id="C"></i>
+          </div>
+          <div class="col-md-3">
+            <i class="devicon-d3js-plain" title="D3JS" id="D3JS"></i>
+          </div>
+          <div class="col-md-3">
+            <i class="devicon-docker-plain" title="Docker" id="Docker"></i>
+          </div>
+          <div class="col-md-3">
+            <i class="devicon-express-original" title="Express" id="Express"></i>
+          </div>
+          <div class="col-md-3">
+            <i class="devicon-git-plain" title="Git" id="Git"></i>
+          </div>
+          <div class="col-md-3">
+            <i class="devicon-github-plain" title="GitHub" id="GitHub"></i>
+          </div>
+          <div class="col-md-3">
+            <i class="devicon-heroku-original" title="Heroku" id="Heroku"></i>
+          </div>
+          <div class="col-md-3">
+            <i class="devicon-html5-plain" title="HTML" id="HTML"></i>
+          </div>
+          <div class="col-md-3">
+            <i class="devicon-java-plain" title="AWS" id="AWS"></i>
+          </div>
+          <div class="col-md-3">
+            <i class="devicon-javascript-plain" title="AWS" id="AWS"></i>
+          </div>
+          <div class="col-md-3">
+            <i class="devicon-jquery-plain" title="AWS" id="AWS"></i>
+          </div>
+          <div class="col-md-3">
+            <i class="devicon-linux-plain" title="AWS" id="AWS"></i>
+          </div>
+          <div class="col-md-3">
+            <i class="devicon-mongodb-plain" title="AWS" id="AWS"></i>
+          </div>
+          <div class="col-md-3">
+            <i class="devicon-mysql-plain" title="AWS" id="AWS"></i>
+          </div>
+          <div class="col-md-3">
+            <i class="devicon-nodejs-plain" title="AWS" id="AWS"></i>
+          </div>
+          <div class="col-md-3">
+            <i class="devicon-php-plain" title="AWS" id="AWS"></i>
+          </div>
+          <div class="col-md-3">
+            <i class="devicon-postgresql-plain" title="AWS" id="AWS"></i>
+          </div>
+          <div class="col-md-3">
+            <i class="devicon-python-plain" title="AWS" id="AWS"></i>
+          </div>
+          <div class="col-md-3">
+            <i class="devicon-react-original" title="AWS" id="AWS"></i>
+          </div>
+          <div class="col-md-3">
+            <i class="devicon-typescript-plain" title="AWS" id="AWS"></i>
+          </div>
+          <div class="col-md-3">
+            <i class="devicon-ubuntu-plain" title="AWS" id="AWS"></i>
+          </div>
+          <div class="col-md-3">
+            <i class="devicon-visualstudio-plain" title="AWS" id="AWS"></i>
+          </div>
+          <div class="col-md-3">
+          </div>
+          <div class="col-md-3">
+          </div>
+        </div> -->
       </section>
       <br>
       <section id="organizations">
