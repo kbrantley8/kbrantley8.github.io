@@ -1,0 +1,158 @@
+{
+    "AWS": {
+        "class": "devicon-amazonwebservices-plain-wordmark",
+        "title": "AWS",
+        "css": "",
+        "html": "<h1>Amazon Web Services (AWS) <i class='devicon-amazonwebservices-plain-wordmark'></i></i></h1><div class='line'></div>"
+    },
+    "Android": {
+        "class": "devicon-android-plain",
+        "title": "Android",
+        "css": "",
+        "html": "<h1>Android<i class='devicon-android-plain'></i></i></h1><div class='line'></div>"
+    },
+    "Angular": {
+        "class": "devicon-angularjs-plain",
+        "title": "AngularJS",
+        "css": "",
+        "html": "<h1>AngularJS <i class='devicon-angularjs-plain'></i></i></h1><div class='line'></div>"
+    },
+    "Bootstrap": {
+        "class": "devicon-bootstrap-plain",
+        "title": "Bootstrap",
+        "css": "",
+        "html": "<h1>Bootstrap <i class='devicon-bootstrap-plain'></i></i></h1><div class='line'></div>"
+    },
+    "C": {
+        "class": "devicon-c-plain",
+        "title": "C",
+        "css": "",
+        "html": "<h1>C <i class='devicon-c-plain'></i></i></h1><div class='line'></div>"
+    },
+    "D3JS": {
+        "class": "devicon-d3js-plain",
+        "title": "D3JS",
+        "css": "",
+        "html": "<h1>D3 JS <i class='devicon-d3js-plain'></i></i></h1><div class='line'></div>"
+    },
+    "Docker": {
+        "class": "devicon-docker-plain",
+        "title": "Docker",
+        "css": "",
+        "html": "<h1>Docker <i class='devicon-docker-plain></i></i></h1><div class='line'></div>"
+    },
+    "Express": {
+        "class": "devicon-express-original",
+        "title": "Express",
+        "css": "",
+        "html": "<h1>Express <i class='devicon-express-original'></i></i></h1><div class='line'></div>"
+    },
+    "Git": {
+        "class": "devicon-git-plain",
+        "title": "Git",
+        "css": "",
+        "html": "<h1>Git <i class='devicon-git-plain'></i></i></h1><div class='line'></div>"
+    },
+    "GitHub": {
+        "class": "devicon-github-plain",
+        "title": "GitHub",
+        "css": "",
+        "html": "<h1>GitHub <i class='devicon-github-plain'></i></i></h1><div class='line'></div>"
+    },
+    "Heroku": {
+        "class": "devicon-heroku-original",
+        "title": "Heroku",
+        "css": "",
+        "html": "<h1>Heroku <i class='devicon-heroku-original'></i></i></h1><div class='line'></div>"
+    },
+    "HTML": {
+        "class": "devicon-html5-plain",
+        "title": "HTML",
+        "css": "",
+        "html": "<h1>HTML <i class='devicon-html5-plain'></i></i></h1><div class='line'></div>"
+    },
+    "Java": {
+        "class": "devicon-java-plain",
+        "title": "Java",
+        "css": "",
+        "html": "<h1>Java <i class='devicon-java-plain'></i></i></h1><div class='line'></div>"
+    },
+    "Javascript": {
+        "class": "devicon-javascript-plain",
+        "title": "Javascript",
+        "css": "",
+        "html": "<h1>Javascript <i class='devicon-javascript-plain'></i></i></h1><div class='line'></div>"
+    },
+    "JQuery": {
+        "class": "devicon-jquery-plain",
+        "title": "JQuery",
+        "css": "",
+        "html": "<h1>JQuery <i class='devicon-jquery-plain'></i></i></h1><div class='line'></div>"
+    },
+    "Linux": {
+        "class": "devicon-linux-plain",
+        "title": "Linux",
+        "css": "",
+        "html": "<h1>Linux <i class='devicon-linux-plain'></i></i></h1><div class='line'></div>"
+    },
+    "MongoDB": {
+        "class": "devicon-mongodb-plain",
+        "title": "MongoDB",
+        "css": "",
+        "html": "<h1>MongoDB <i class='devicon-mongodb-plain'></i></i></h1><div class='line'></div>"
+    },
+    "MySQL": {
+        "class": "devicon-mysql-plain",
+        "title": "MySQL",
+        "css": "",
+        "html": "<h1>MySQL <i class='devicon-mysql-plain'></i></i></h1><div class='line'></div>"
+    },
+    "NodeJS": {
+        "class": "devicon-nodejs-plain",
+        "title": "NodeJS",
+        "css": "",
+        "html": "<h1>NodeJS <i class='devicon-nodejs-plain'></i></i></h1><div class='line'></div>"
+    },
+    "PHP": {
+        "class": "devicon-php-plain",
+        "title": "PHP",
+        "css": "",
+        "html": "<h1>PHP <i class='devicon-php-plain'></i></i></h1><div class='line'></div>"
+    },
+    "PostgreSQL": {
+        "class": "devicon-postgresql-plain",
+        "title": "PostgreSQL",
+        "css": "",
+        "html": "<h1>PostgreSQL <i class='devicon-postgresql-plain'></i></i></h1><div class='line'></div>"
+    },
+    "Python": {
+        "class": "devicon-python-plain",
+        "title": "Python",
+        "css": "",
+        "html": "<h1>Python <i class='devicon-python-plain'></i></i></h1><div class='line'></div>"
+    },
+    "React": {
+        "class": "devicon-react-plain",
+        "title": "React",
+        "css": "",
+        "html": "<h1>React <i class='devicon-react-plain'></i></i></h1><div class='line'></div>"
+    },
+    "TypeScript": {
+        "class": "devicon-typescript-plain",
+        "title": "TypeScript",
+        "css": "",
+        "html": "<h1>TypeScript <i class='devicon-typescript-plain'></i></i></h1><div class='line'></div>"
+    },
+    "Ubuntu": {
+        "class": "devicon-ubuntu-plain",
+        "title": "Ubuntu",
+        "css": "",
+        "html": "<h1>Ubuntu <i class='devicon-ubuntu-plain'></i></i></h1><div class='line'></div>"
+    },
+    "VS Code": {
+        "class": "devicon-visualstudio-plain",
+        "title": "VS Code",
+        "css": "",
+        "html": "<h1>VS Code <i class='devicon-visualstudio-plain'></i></i></h1><div class='line'></div>"
+    }
+}
