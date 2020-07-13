@@ -17,7 +17,7 @@ $(document).ready(function() {
                 } else if ((count > 2) && (col_md == 4)) {
                     count = 0;
                     col_md = 3;
-                    $(icons).append(the_space_2)
+                    $("#icons").append(the_space_2)
                 }
                 var the_space_2 = '<div class="col-md-2"></div>';
                 var the_space_1 = '<div class="col-md-1"></div>';
@@ -36,7 +36,7 @@ $(document).ready(function() {
                         '</div>'
                     }
                 }
-                $(icons).append(ht)
+                $("#icons").append(ht)
                 $("#" + icon).on("click", function() {
                     var id = $(this).attr("id")
                     $("html, body").animate({ scrollTop: $(this).offset().top - 370 }, 1000);
