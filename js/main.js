@@ -40,8 +40,8 @@ $(document).ready(function() {
                 $("#" + icon).on("click", function() {
                     var id = $(this).attr("id")
                     $("html, body").animate({ scrollTop: $(this).offset().top - 370 }, 1000);
-                    setAllBlack($(this));
-                    openNav(actual_JSON[id].html);
+                    // setAllBlack($(this));
+                    // openNav(actual_JSON[id].html);
                 })
                 count++;
             }

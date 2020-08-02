@@ -3,19 +3,19 @@
         "class": "devicon-amazonwebservices-plain-wordmark",
         "title": "AWS",
         "css": "",
-        "html": "<h1>Amazon Web Services (AWS) <i class='devicon-amazonwebservices-plain-wordmark'></i></i></h1><div class='line'></div>"
+        "html": "<h1>Amazon Web Services (AWS) <i class='devicon-amazonwebservices-plain-wordmark'></i></i></h1><div class='line'></div><h2 style='margin-top: 15px;'>What is AWS?</h2><p>Amazon Web Services is a conglomerate of featured services that are hosted on their cloud platform. It allows for easy access to server hosting options and database accessbility.</p><h2 style='margin-top: 15px;'>Application:</h2><p>1) I utilized AWS Lambda for my involvement in the GaTech SGA's IT Board. It was our assignment my first year to update the current model of the Slack CalenderBot for the reservation of rooms around campus. To do this, we needed to use AWS Lambda to host the backend. This would allow us to process HTTP requests on the server that AWS was hosting.</p><p>2) I also used AWS Lambda for a temporary application for my Ubiqutous Computing class. It was a demo server to make temporary calls for our backend implementation. We later moved to Heroku but the utlization of AWS Lambda was successful.</p>"
     },
-    "Android": {
+    "Android_Studio": {
         "class": "devicon-android-plain",
-        "title": "Android",
+        "title": "Android Studio",
         "css": "",
-        "html": "<h1>Android<i class='devicon-android-plain'></i></i></h1><div class='line'></div>"
+        "html": "<h1>Android Studio<i class='devicon-android-plain'></i></i></h1><div class='line'></div><h2 style='margin-top: 15px;'>What is Android Studio?</h2><p>Android Studio is the IDE used to create Android apps. It comes equipped with an extensive set of emulators to use for debugging and testing.</p><h2 style='margin-top: 15px;'>Application:</h2><p>I used Android Studio during my CS 2340 class. My team and I created an Android app that helped donation centers track new and existing items. I was our frontend leader on this project so my exposure to Android Studio was extensive. From a swipable menu screen to an integration with Google Maps, I was able to successfully create the project with my teammates and deliver a working prototype. This project can be found here: <a target='_blank' href='https://github.com/nevika/Here-for-a-Good-Time'>https://github.com/nevika/Here-for-a-Good-Time</a> </p>"
     },
-    "Angular": {
+    "AngularJS": {
         "class": "devicon-angularjs-plain",
         "title": "AngularJS",
         "css": "",
-        "html": "<h1>AngularJS <i class='devicon-angularjs-plain'></i></i></h1><div class='line'></div>"
+        "html": "<h1>AngularJS<i class='devicon-android-plain'></i></i></h1><div class='line'></div><h2 style='margin-top: 15px;'>What is AngularJS?</h2><p>Angular is a framework for creating dynamic web applications. AngularJS is the javascript implementation of Angular, utilizing Javascript for its primary language rather than Typescript.</p><h2 style='margin-top: 15px;'>Application:</h2><p>1) The project of Gamification I worked on during my co-op at Noble Systems Corporation was created using AngularJS. This exposed me to the creation of controllers, the manipulation of the $scope, and the different DOM properties that are all available in AngularJS. </p><p>2) I have also used Angular for a partner's satellite tracking project. This project is still being developed but I am contributing to the front-end development. This is being created using standard Angular thus exposing me to the Typescript side of Angular development.</p>"
     },
     "Bootstrap": {
         "class": "devicon-bootstrap-plain",
@@ -149,7 +149,7 @@
         "css": "",
         "html": "<h1>Ubuntu <i class='devicon-ubuntu-plain'></i></i></h1><div class='line'></div>"
     },
-    "VS Code": {
+    "VS_Code": {
         "class": "devicon-visualstudio-plain",
         "title": "VS Code",
         "css": "",

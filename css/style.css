@@ -157,3 +157,7 @@ body {
   width: 75%;
   border-top: 1px solid grey;
 }
+
+#experience .job-title {
+  font-style: italic;
+}
