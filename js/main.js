@@ -4,6 +4,12 @@ $(document).ready(function() {
         $("html, body").animate({ scrollTop: $("#" + pageId).offset().top - 120 }, 1000);
     })
 
+    $(".course-border").each(function() {
+        var el = $(this);
+        var longest_el = $("#longest-course");
+        el.height(longest_el.height())
+    })
+
     var arrangeIcons = function() {
         loadJSON(function(response) {
             var actual_JSON = JSON.parse(response);
