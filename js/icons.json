@@ -137,6 +137,12 @@
         "css": "",
         "html": "<h1>React <i class='devicon-react-plain'></i></i></h1><div class='line'></div>"
     },
+    "Redux": {
+        "class": "devicon-redux-original",
+        "title": "Redux",
+        "css": "",
+        "html": "<h1>Redux <i class='devicon-redux-original'></i></i></h1><div class='line'></div>"
+    },
     "TypeScript": {
         "class": "devicon-typescript-plain",
         "title": "TypeScript",

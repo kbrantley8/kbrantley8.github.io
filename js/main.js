@@ -43,12 +43,12 @@ $(document).ready(function() {
                     }
                 }
                 $("#icons").append(ht)
-                $("#" + icon).on("click", function() {
-                    var id = $(this).attr("id")
-                    $("html, body").animate({ scrollTop: $(this).offset().top - 370 }, 1000);
+                // $("#" + icon).on("click", function() {
+                //     var id = $(this).attr("id")
+                //     $("html, body").animate({ scrollTop: $(this).offset().top - 370 }, 1000);
                     // setAllBlack($(this));
                     // openNav(actual_JSON[id].html);
-                })
+                // })
                 count++;
             }
         });
